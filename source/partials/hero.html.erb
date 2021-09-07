@@ -1,0 +1,22 @@
+<div class="hero-container my-4">
+  <div class="d-flex justify-content-center">
+    <%= image_tag "metorz.jpg", alt: "Derek's Face", class: 'avatar-large-square mx-3' %>
+    <div class="intro-text d-flex flex-column justify-content-center">
+      <h1>Hey there.</h1>
+      <h1>I'm <span style="color: #e76161">Derek</span>. A full</h1>
+      <h1>stack web dev</h1>
+      <h1>based in <span style="color: #e76161">Tokyo</span>.</h1>
+    </div>
+  </div>
+  <div class="hero-links row d-flex justify-content-center mt-3">
+    <div class="hero-link d-flex justify-content-center align-items-center m-2 col-5 col-sm-3">
+      <%= link_to "About", "#about", class: 'btn-slide' %>
+    </div>
+    <div class="hero-link d-flex justify-content-center align-items-center m-2 col-5 col-sm-3">
+      <%= link_to "Projects", "#projects", class: 'btn-slide' %>
+    </div>
+    <div class="hero-link d-flex justify-content-center align-items-center m-2 col-5 col-sm-3">
+      <%= link_to "Contact", "#contact", class: 'btn-slide' %>
+    </div>
+  </div>
+</div>

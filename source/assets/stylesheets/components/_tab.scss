@@ -8,17 +8,20 @@
   display: none;
 }
 .tabs label {
-  padding: 16px;
+  padding: 8px;
   background: rgb(243, 166, 166);
   font-weight: bold;
   margin-bottom: 0;
   margin-right: 4px;
   width: 6rem;
   text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: rgb(128, 128, 128);
 }
 .tabs .tab {
   width: 100%;
-  padding: 20px;
+  padding: 30px;
   background: white;
   order: 1;
   display: none;
@@ -28,4 +31,6 @@
 }
 .tabs input[type="radio"]:checked + label {
   background: $red;
+  padding: 16px;
+  color: black;
 }

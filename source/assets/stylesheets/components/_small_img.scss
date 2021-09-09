@@ -1,8 +1,16 @@
+.img-shadow {
+  box-shadow:
+  0 6.2px 6.6px rgba(0, 0, 0, 0.08),
+  0 20.8px 22.1px rgba(0, 0, 0, 0.082),
+  0 93px 99px rgba(0, 0, 0, 0.08);
+}
 .sk8it {
   max-height: 595px;
   max-width: 260px;
+  border-radius: 8px;
 }
 .airsocks {
   max-height: 285px;
   max-width: 500px;
+  border-radius: 4px;
 }

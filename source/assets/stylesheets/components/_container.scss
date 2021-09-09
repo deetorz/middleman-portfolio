@@ -1,6 +1,28 @@
 .hero-container {
   height: 80vh;
-  width: 100vh;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.about-container {
+  height: auto;
+  background-color: $orange;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact-container {
+  height: auto;
+  background-color: $purple;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;

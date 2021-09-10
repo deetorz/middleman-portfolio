@@ -20,9 +20,26 @@
   display: flex;
   flex-direction: column;
 }
+.skills-container {
+  height: auto;
+  width: 100%;
+  background-color: $yellow;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.skills-container ul {
+  list-style: none;
+  text-align: start;
+  padding: 0;
+  width: 200px;
+}
 .contact-container {
   height: auto;
-  background-color: $yellow;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;

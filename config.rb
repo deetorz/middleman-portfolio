@@ -33,6 +33,9 @@ configure :development do
   set      :debug_assets, true
 end
 
+activate :metaman, host: 'https://www.derektorres.com'
+
+
 configure :build do
   ignore   File.join(config[:js_dir], '*') # handled by webpack
   set      :relative_links, true

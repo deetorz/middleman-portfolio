@@ -44,12 +44,28 @@
           </div>
         </div>
       </div>
-      <%# <input type="radio" id="tab3" name="tabs">
-      <label for="tab3">SunStrife</label>
+      <input type="radio" id="tab3" name="tabs">
+      <label for="tab3">Sunstrife</label>
       <div class="tab">
-        <h2>SunStrife</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime quaerat voluptate, aperiam laudantium cum est repudiandae sapiente voluptatum iste in tempora earum temporibus ab cumque, incidunt quisquam, aut vitae nobis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos consectetur vel, ipsa beatae sapiente ullam perspiciatis sint? Molestias, deleniti est! Nesciunt modi aliquam quisquam aperiam iste at voluptate eligendi atque!</p>
-      </div> %>
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-xs-10 col-sm-8 col-md-6 col-lg-4">
+            <%= image_tag "ss-mobile.png", class: "sk8it img-shadow" %>
+          </div>
+          <div class="col-lg-6 mt-5">
+            <h2>SunStrife</h2>
+            <p>More of a personal/passion project, this is a static website I built for my best friend's band. I chose to use Middleman because I still wanted the code to have a "Rails" feel to it. I chose to go a simple route for their site, but I will update it as the band's needs change. Don't forget to give them a listen!</p>
+            <% link_to "https://open.spotify.com/artist/7oO9C1YQHV22qKRXU8bcCy", target: :_blank do %>
+              <i class="fab fa-spotify"></i>
+            <% end %>
+            <% link_to "https://github.com/deetorz/sunstrife", target: :_blank do %>
+              <i class="fas fa-code"></i>
+            <% end %>
+            <% link_to "https://sunstrife.netlify.app/", target: :_blank do %>
+              <i class="fas fa-desktop"></i>
+            <% end %>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

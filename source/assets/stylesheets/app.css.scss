@@ -18,6 +18,15 @@ html {
 
 body {
   background-image: url("../images/dust_scratches.png");
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  &::-webkit-scrollbar-track {
+    background: #F3F3F3;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $red;
+  }
 }
 h1 {
   font-size: 3.5rem;
